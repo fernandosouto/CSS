@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.titulo h1, .titulo p, .section section h2{
+    color: seagreen;
+    margin: 10px;
+}
+.titulo p{
+    font-size: 20px;
+}
+.section ul{
+    display: block;
+    list-style: none;
+}
+.section section ul li{
+    display: inline-block;
+    margin: 0 5px 0 0;
+    /* padding: 10px; */
+}
+.section ul li a{
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 5px;
+    padding: 10px;
+}
+.section ul li a:hover{
+    background-color: rgb(106, 201, 147);
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
