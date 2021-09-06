@@ -9,9 +9,15 @@ body{
 .titulo p{
     font-size: 20px;
 }
+.section{
+    background-color: #FFF;
+    height: 50px;
+}
 .section ul{
-    display: block;
+    display: inline-block;
     list-style: none;
+    margin-top: 0px;
+    margin: 15px 0 15px 0;
 }
 .section section ul li{
     display: inline-block;
@@ -19,6 +25,7 @@ body{
     /* padding: 10px; */
 }
 .section ul li a{
+    display:inline-block;
     background-color: seagreen;
     color: white;
     text-decoration: none;

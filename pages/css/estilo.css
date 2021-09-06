@@ -1,0 +1,20 @@
+#main{
+    font-size: 40px;
+}
+#main ul, ol{
+    padding: 0;
+}
+#main li{
+    margin-left: 60px;
+}
+body, #main .tag{
+    border: solid 4px;
+    margin: 5px;
+}
+.tag label{
+    color: #FFF;
+    font-size: 25px;
+    vertical-align: top;
+    margin-right: 10px;
+    padding: 0 5px 3px 3px;
+}
