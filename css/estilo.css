@@ -3,6 +3,7 @@ body{
     font-family: sans-serif;
 }
 .titulo h1, .titulo p, .section section h2{
+    color: black;
     color: seagreen;
     margin: 10px;
 }
