@@ -1,9 +1,9 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: #FFF;
 }
 .titulo h1, .titulo p, .section section h2{
-    color: black;
     color: seagreen;
     margin: 10px;
 }
