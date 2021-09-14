@@ -1,7 +1,5 @@
-let texto = '';
-
+const xbtn = document.getElementsByClassName('searchx')[0]
 function apaga(){
-    texto = document.getElementsByClassName("textao").value;
-    texto = ''
-    return ''
+    let texto = document.getElementsByClassName("textao")[0];
+    texto.value = '';
 }
