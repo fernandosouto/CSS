@@ -3,6 +3,27 @@ body{
     
 }
 /* Horizontal */
+.menuHamburguer{
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: auto 30px auto 15px;
+    align-items: center;
+}
+.menuHbg{
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+}
+.menuHbg:before{
+    background-color: #999;
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    transform-origin: -5px 10px;
+}
 .horizontal{
     position: fixed;
     display: flex;
@@ -21,13 +42,10 @@ body{
 .horizontal a img{
     width: 100px;
 }
-.horizontal::after{
-}
 .search{
     position: relative;
     display: flex;
     flex-direction: row;
-    /* align-self: center; */
     align-items: center;
     margin-left: 50px;
     height: 25px;
