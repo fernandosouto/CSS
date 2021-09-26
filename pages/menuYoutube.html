@@ -7,6 +7,7 @@
     <link rel="icon" href="img/menuYoutube/LogoYoutube.ico" type="image/x-icon">
     <title>YouTube</title>
     <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="css/menuYoutube.css">
     <script src="js/menuYoutube.js"></script>
 </head>
@@ -23,18 +24,18 @@
         <div style="display: flex; align-items: center; width: 50%;">
             <form class="search" action="">
                 <input class="textao" type="search" placeholder="Pesquisar">
-                <div class="searchkeyboard"></div>
+                <i class="far fa-keyboard searchkeyboard"></i>
                 <div class="searchx" onclick="apaga()">X</div>
             </form>
-            <div class="searchbtn">
-                <div class="icone lupa"></div>
+            <div class="searchbtn" data-title="Pesquisar">
+                <i class="fas fa-search icone lupa"></i>
             </div>
-            <div class="mic" style="color: white; margin: 0 15px 0 15px;">asdasd</div>
+            <i class="fas fa-microphone"></i>
         </div>
         <div class="lastIconsHorizontal">
-            <div class="upload">upload</div>
-            <div class="apps">apps</div> 
-            <div class="bel">Bel</div>
+            <i class="fas fa-video" data-title="Criar"></i>
+            <i class="fas fa-th" data-title="Aplicativos do Youtube"></i> 
+            <i class="far fa-bell" data-title="Notificações"></i>
             <div class="profile">Profile</div>
         </div>
     </div>
