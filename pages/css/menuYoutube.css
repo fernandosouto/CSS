@@ -1,8 +1,30 @@
 body{
     background-color: #111;
-    
 }
+.topzera{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* Vertical */
+.vertical{
+    position: absolute;
+    display: inline-flex;
+    height: 100%;
+    width: 250px;
+    background-color: #FFF;
+}
+/* Vertical END */
 /* Horizontal */
+.horizontal{
+    position: absolute;
+    display: inline-flex;
+    height: 56px;
+    width: 100%;
+    background-color: #222;
+    padding: 0 15px;
+    border-bottom: solid 2px #333;
+}
 .menuHamburguer{
     position: relative;
     display: flex;
@@ -33,16 +55,6 @@ body{
     width: 20px;
     height: 1px;
     transform: translateY(-5px);
-}
-.horizontal{
-    position: fixed;
-    display: flex;
-    height: 56px;
-    width: 100%;
-    background-color: #222;
-    top: 0;
-    padding: 0 15px;
-    border-bottom: solid 2px #333;
 }
 .horizontal a{
     display: flex;
